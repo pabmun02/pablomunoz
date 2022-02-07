@@ -1,0 +1,114 @@
+Script started on 2022-02-07 14:31:17+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;pablo@pablo-VirtualBox: ~[01;32mpablo@pablo-VirtualBox[00m:[01;34m~[00m$ cd Descargas
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ python3 0_procesos.py
+fin
+hola 0
+hola 0
+hola 1
+hola 1
+hola 2
+hola 2
+hola 3
+hola 4
+hola 3
+hola 4
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ python3 0_procesos.py[C[C[C[1P_procesos.py1_procesos.py
+hola soy ana 1 vuelta 0
+hola soy ana 6 vuelta 0
+hola soy ana 2 vuelta 0
+hola soy ana 3 vuelta 0
+hola soy ana 4 vuelta 0
+hola soy ana 0 vuelta 0
+hola soy ana 5 vuelta 0
+fin
+hola soy ana 8 vuelta 0
+hola soy ana 7 vuelta 0
+hola soy ana 9 vuelta 0
+adios
+hola soy ana 2 vuelta 1
+hola soy ana 5 vuelta 1
+hola soy ana 2 vuelta 2
+hola soy ana 7 vuelta 1
+hola soy ana 9 vuelta 1
+hola soy ana 0 vuelta 1
+hola soy ana 5 vuelta 2
+hola soy ana 3 vuelta 1
+hola soy ana 7 vuelta 2
+hola soy ana 1 vuelta 1
+hola soy ana 6 vuelta 1
+hola soy ana 4 vuelta 1
+hola soy ana 6 vuelta 2
+hola soy ana 0 vuelta 2
+hola soy ana 1 vuelta 2
+hola soy ana 8 vuelta 1
+hola soy ana 3 vuelta 2
+hola soy ana 9 vuelta 2
+hola soy ana 8 vuelta 2
+hola soy ana 4 vuelta 2
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git init
+Inicializado repositorio Git vacío en /home/pablo/Descargas/.git/
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git add 0_processo[K[Kos.py
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git add 0_procesos.py[1P_procesos.py1_procesos.py
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git add 1_procesos.py[C[1P_procesos.py2_procesos.py
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git add 2_procesos.py[1P_procesos.py3_procesos.py
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git add 3_procesos.py[C[1P_procesos.py4_procesos.py
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git commit -m "pythom[Kn"[K[K[K[K[K[K[Kpractica1"
+[master (commit-raíz) 6627b47] practica1
+ 5 files changed, 107 insertions(+)
+ create mode 100644 0_procesos.py
+ create mode 100644 1_procesos.py
+ create mode 100644 2_procesos.py
+ create mode 100644 3_procesos.py
+ create mode 100644 4_procesos.py
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git push
+fatal: No se ha configurado un destino para el push.
+Puedes o especificar una URL desde la línea de comandos o configurar un repositorio remoto usando
+
+    git remote add <nombre> <url>
+
+y luego haciendo push al nombre del remoto
+
+    git push <nombre>
+
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git push[K[K[K[Kremote add Pablo git@github.com:pabmun02/pablomunoz.git
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git push Pablo
+fatal: La rama actual master no tiene una rama upstream.
+Para realizar un push de la rama actual y configurar el remoto como upstream, use
+
+	git push --set-upstream Pablo master
+
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git push Pabloremote add Pablo git@github.com:pabmun02/pablomunoz.git[A]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add Pablo git@github.com:pabmun02/pablomunoz.gitgit push orii[Kgin master
+uso: git remote add [<opciones>] <nombre> <url>
+
+    -f, --fetch           realizar fetch a las ramas remotas
+    --tags                importar todos los tags y objetos asociados cuando realiza el fetch
+                          o no realziar fetch a ningún tag (--no-tags)
+    -t, --track <rama>    rama(s) para rastrear
+    -m, --master <rama>   rama master
+    --mirror[=(push|fetch)]
+                          configurar remote como mirror para realizar push o desde el cual realizar fetch
+
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git remote add origin git@github.com:pabmun02/pablomunoz.git
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ git push origin master
+Enumerando objetos: 7, listo.
+Contando objetos:  14% (1/7)Contando objetos:  28% (2/7)Contando objetos:  42% (3/7)Contando objetos:  57% (4/7)Contando objetos:  71% (5/7)Contando objetos:  85% (6/7)Contando objetos: 100% (7/7)Contando objetos: 100% (7/7), listo.
+Comprimiendo objetos:  14% (1/7)Comprimiendo objetos:  28% (2/7)Comprimiendo objetos:  42% (3/7)Comprimiendo objetos:  57% (4/7)Comprimiendo objetos:  71% (5/7)Comprimiendo objetos:  85% (6/7)Comprimiendo objetos: 100% (7/7)Comprimiendo objetos: 100% (7/7), listo.
+Escribiendo objetos:  14% (1/7)Escribiendo objetos:  28% (2/7)Escribiendo objetos:  42% (3/7)Escribiendo objetos:  71% (5/7)Escribiendo objetos: 100% (7/7)Escribiendo objetos: 100% (7/7), 1.33 KiB | 272.00 KiB/s, listo.
+Total 7 (delta 2), reusado 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/pabmun02/pablomunoz/pull/new/master[K
+remote: 
+To github.com:pabmun02/pablomunoz.git
+ * [new branch]      master -> master
+]0;pablo@pablo-VirtualBox: ~/Descargas[01;32mpablo@pablo-VirtualBox[00m:[01;34m~/Descargas[00m$ exit
+
+Script done on 2022-02-07 14:53:24+01:00 [COMMAND_EXIT_CODE="0"]
